@@ -92,7 +92,7 @@ code.has-jax {
 }
 </style>
 
-<meta property="og:title" content="📚文章" />
+<link rel='stylesheet' href='//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.css'><meta property="og:title" content="📚文章" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://iriseve.github.io/posts/" />
@@ -202,79 +202,40 @@ code.has-jax {
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2>✨算法
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>没事就刷刷题</p>
+  </div>
+  <a class="entry-link" aria-label="post link to ✨算法" href="https://iriseve.github.io/posts/algorithm/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2>👩‍💻技术
     </h2>
   </header>
   <div class="entry-content">
     <p>记录一些好玩的</p>
   </div>
-  <footer class="entry-footer">
-
-
-
-
-
-
-
-
-
-
-创建:&nbsp;<span title='2022-12-24 00:00:00 +0000 UTC'>2022-12-24</span>&nbsp;|&nbsp;更新:&nbsp;2022-12-24&nbsp;|&nbsp;字数:&nbsp;7字&nbsp;|&nbsp;时长: 1分钟&nbsp;|&nbsp;
-作者:&nbsp;yiling</footer>
   <a class="entry-link" aria-label="post link to 👩‍💻技术" href="https://iriseve.github.io/posts/tech/"></a>
 </article>
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2>💻后端
+    <h2>💻环境搭建
     </h2>
   </header>
   <div class="entry-content">
-    <p>日常码代码..</p>
+    <p>日常修电脑…</p>
   </div>
-  <footer class="entry-footer">
-
-
-
-
-
-
-
-
-
-
-更新:&nbsp;0001-01-01&nbsp;|&nbsp;字数:&nbsp;7字&nbsp;|&nbsp;时长: 1分钟&nbsp;|&nbsp;
-作者:&nbsp;yiling</footer>
-  <a class="entry-link" aria-label="post link to 💻后端" href="https://iriseve.github.io/posts/back-end/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2>🏖️生活
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>享受生活的未知</p>
-  </div>
-  <footer class="entry-footer">
-
-
-
-
-
-
-
-
-
-
-更新:&nbsp;0001-01-01&nbsp;|&nbsp;字数:&nbsp;7字&nbsp;|&nbsp;时长: 1分钟&nbsp;|&nbsp;
-作者:&nbsp;yiling</footer>
-  <a class="entry-link" aria-label="post link to 🏖️生活" href="https://iriseve.github.io/posts/life/"></a>
+  <a class="entry-link" aria-label="post link to 💻环境搭建" href="https://iriseve.github.io/posts/env_deploy/"></a>
 </article>
     </main>
     
 <footer class="footer">
-    <span>&copy; 2022 <a href="https://iriseve.github.io/">yiling的成长历程</a></span>
+    <span>&copy; 2023 <a href="https://iriseve.github.io/">yiling的成长历程</a></span>
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
@@ -341,6 +302,20 @@ code.has-jax {
     })
 
 </script>
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script>
+    $("code[class^=language] ").on("mouseover", function () {
+        if (this.clientWidth < this.scrollWidth) {
+            $(this).css("width", "135%")
+        }
+    }).on("mouseout", function () {
+        $(this).css("width", "100%")
+        $(".copy-code").css("right", "4px")
+    })
+</script>
+
+
 </body>
 
 </html>

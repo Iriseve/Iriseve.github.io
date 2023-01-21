@@ -92,7 +92,7 @@ code.has-jax {
 }
 </style>
 
-<meta property="og:title" content="Tags" />
+<link rel='stylesheet' href='//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.css'><meta property="og:title" content="Tags" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://iriseve.github.io/tags/" />
@@ -185,15 +185,13 @@ code.has-jax {
    
 </header>
 
+
 <ul class="terms-tags">
-    <li>
-        <a href="https://iriseve.github.io/tags/%E7%AE%97%E6%B3%95/">算法 <sup><strong><sup>1</sup></strong></sup> </a>
-    </li>
 </ul>
     </main>
     
 <footer class="footer">
-    <span>&copy; 2022 <a href="https://iriseve.github.io/">yiling的成长历程</a></span>
+    <span>&copy; 2023 <a href="https://iriseve.github.io/">yiling的成长历程</a></span>
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
@@ -260,6 +258,20 @@ code.has-jax {
     })
 
 </script>
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script>
+    $("code[class^=language] ").on("mouseover", function () {
+        if (this.clientWidth < this.scrollWidth) {
+            $(this).css("width", "135%")
+        }
+    }).on("mouseout", function () {
+        $(this).css("width", "100%")
+        $(".copy-code").css("right", "4px")
+    })
+</script>
+
+
 </body>
 
 </html>

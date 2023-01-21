@@ -92,7 +92,7 @@ code.has-jax {
 }
 </style>
 
-<meta property="og:title" content="" />
+<link rel='stylesheet' href='//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.css'><meta property="og:title" content="" />
 <meta property="og:description" content="走进我 昵称：yiling 一个什么都不会又什么都想玩玩的大学生 努力成长中&hellip; 关于博客 记录下摸爬滚打过程中的坎坷 方便日后不在同一个地" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://iriseve.github.io/about/" /><meta property="article:section" content="" />
@@ -236,6 +236,7 @@ code.has-jax {
     <h1 class="post-title">
       
     </h1>
+
   </header> 
   <div class="post-content"><h2 id="走进我">走进我<a hidden class="anchor" aria-hidden="true" href="#走进我">#</a></h2>
 <p>昵称：yiling</p>
@@ -257,7 +258,7 @@ code.has-jax {
     </main>
     
 <footer class="footer">
-    <span>&copy; 2022 <a href="https://iriseve.github.io/">yiling的成长历程</a></span>
+    <span>&copy; 2023 <a href="https://iriseve.github.io/">yiling的成长历程</a></span>
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
@@ -371,6 +372,20 @@ code.has-jax {
         }
     });
 </script>
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script>
+    $("code[class^=language] ").on("mouseover", function () {
+        if (this.clientWidth < this.scrollWidth) {
+            $(this).css("width", "135%")
+        }
+    }).on("mouseout", function () {
+        $(this).css("width", "100%")
+        $(".copy-code").css("right", "4px")
+    })
+</script>
+
+
 </body>
 
 </html>
