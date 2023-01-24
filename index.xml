@@ -5,7 +5,26 @@
     <link>https://iriseve.github.io/</link>
     <description>Recent content on yiling的成长历程</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language><atom:link href="https://iriseve.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 23 Jan 2023 23:12:56 +0800</lastBuildDate><atom:link href="https://iriseve.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>可变参数</title>
+      <link>https://iriseve.github.io/posts/tech/%E5%8F%AF%E5%8F%98%E5%8F%82%E6%95%B0/</link>
+      <pubDate>Mon, 23 Jan 2023 23:12:56 +0800</pubDate>
+      
+      <guid>https://iriseve.github.io/posts/tech/%E5%8F%AF%E5%8F%98%E5%8F%82%E6%95%B0/</guid>
+      <description>可变参数</description>
+    </item>
+    
+    <item>
+      <title>javac&amp;java</title>
+      <link>https://iriseve.github.io/posts/tech/javacjava/</link>
+      <pubDate>Mon, 23 Jan 2023 20:25:40 +0800</pubDate>
+      
+      <guid>https://iriseve.github.io/posts/tech/javacjava/</guid>
+      <description>java命令行使用</description>
+    </item>
+    
     <item>
       <title></title>
       <link>https://iriseve.github.io/about/</link>

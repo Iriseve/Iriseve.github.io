@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://iriseve.github.io/posts/tech/</loc>
+    <lastmod>2023-01-23T23:12:56+08:00</lastmod>
+  </url><url>
+    <loc>https://iriseve.github.io/posts/</loc>
+    <lastmod>2023-01-23T23:12:56+08:00</lastmod>
+  </url><url>
+    <loc>https://iriseve.github.io/categories/</loc>
+    <lastmod>2023-01-23T23:12:56+08:00</lastmod>
+  </url><url>
+    <loc>https://iriseve.github.io/tags/java/</loc>
+    <lastmod>2023-01-23T23:12:56+08:00</lastmod>
+  </url><url>
+    <loc>https://iriseve.github.io/categories/java/</loc>
+    <lastmod>2023-01-23T23:12:56+08:00</lastmod>
+  </url><url>
+    <loc>https://iriseve.github.io/tags/</loc>
+    <lastmod>2023-01-23T23:12:56+08:00</lastmod>
+  </url><url>
+    <loc>https://iriseve.github.io/</loc>
+    <lastmod>2023-01-23T23:12:56+08:00</lastmod>
+  </url><url>
+    <loc>https://iriseve.github.io/posts/tech/%E5%8F%AF%E5%8F%98%E5%8F%82%E6%95%B0/</loc>
+    <lastmod>2023-01-23T23:12:56+08:00</lastmod>
+  </url><url>
+    <loc>https://iriseve.github.io/posts/tech/javacjava/</loc>
+    <lastmod>2023-01-23T20:25:40+08:00</lastmod>
+  </url><url>
     <loc>https://iriseve.github.io/about/</loc>
     <lastmod>2022-12-24T20:21:14+08:00</lastmod>
   </url><url>
@@ -9,20 +36,10 @@
   </url><url>
     <loc>https://iriseve.github.io/posts/algorithm/</loc>
   </url><url>
-    <loc>https://iriseve.github.io/posts/tech/</loc>
-  </url><url>
     <loc>https://iriseve.github.io/posts/env_deploy/</loc>
-  </url><url>
-    <loc>https://iriseve.github.io/posts/</loc>
   </url><url>
     <loc>https://iriseve.github.io/search/</loc>
   </url><url>
-    <loc>https://iriseve.github.io/categories/</loc>
-  </url><url>
     <loc>https://iriseve.github.io/series/</loc>
-  </url><url>
-    <loc>https://iriseve.github.io/tags/</loc>
-  </url><url>
-    <loc>https://iriseve.github.io/</loc>
   </url>
 </urlset>

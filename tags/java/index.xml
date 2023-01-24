@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>👩‍💻技术 on yiling的成长历程</title>
-    <link>https://iriseve.github.io/posts/tech/</link>
-    <description>Recent content in 👩‍💻技术 on yiling的成长历程</description>
+    <title>java on yiling的成长历程</title>
+    <link>https://iriseve.github.io/tags/java/</link>
+    <description>Recent content in java on yiling的成长历程</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 23 Jan 2023 23:12:56 +0800</lastBuildDate><atom:link href="https://iriseve.github.io/posts/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Jan 2023 23:12:56 +0800</lastBuildDate><atom:link href="https://iriseve.github.io/tags/java/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>可变参数</title>
       <link>https://iriseve.github.io/posts/tech/%E5%8F%AF%E5%8F%98%E5%8F%82%E6%95%B0/</link>

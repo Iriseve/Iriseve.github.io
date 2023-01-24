@@ -5,6 +5,16 @@
     <link>https://iriseve.github.io/categories/</link>
     <description>Recent content in Categories on yiling的成长历程</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language><atom:link href="https://iriseve.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 23 Jan 2023 23:12:56 +0800</lastBuildDate><atom:link href="https://iriseve.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>java</title>
+      <link>https://iriseve.github.io/categories/java/</link>
+      <pubDate>Mon, 23 Jan 2023 23:12:56 +0800</pubDate>
+      
+      <guid>https://iriseve.github.io/categories/java/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
