@@ -5,12 +5,12 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>javac&amp;java | yiling的成长历程</title>
-<meta name="keywords" content="java, 命令行">
-<meta name="description" content="java命令行使用">
+<title>Github仓库推送连接错误 | yiling的成长历程</title>
+<meta name="keywords" content="git">
+<meta name="description" content="git推送奇奇怪怪的小错误">
 <meta name="author" content="
 作者:&nbsp;yiling">
-<link rel="canonical" href="https://iriseve.github.io/posts/tech/javacjava/">
+<link rel="canonical" href="https://iriseve.github.io/posts/tech/github%E4%BB%93%E5%BA%93%E6%8E%A8%E9%80%81%E8%BF%9E%E6%8E%A5%E9%94%99%E8%AF%AF/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
 <script defer crossorigin="anonymous" src="/assets/js/highlight.js" onload="hljs.initHighlightingOnLoad();"></script>
 <link rel="icon" href="https://iriseve.github.io/img/logo.gif">
@@ -92,16 +92,16 @@ code.has-jax {
 }
 </style>
 
-<link rel='stylesheet' href='//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.css'><meta property="og:title" content="javac&amp;java" />
-<meta property="og:description" content="java命令行使用" />
+<link rel='stylesheet' href='//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.css'><meta property="og:title" content="Github仓库推送连接错误" />
+<meta property="og:description" content="git推送奇奇怪怪的小错误" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://iriseve.github.io/posts/tech/javacjava/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-01-23T20:25:40+08:00" />
-<meta property="article:modified_time" content="2023-01-23T20:25:40+08:00" />
+<meta property="og:url" content="https://iriseve.github.io/posts/tech/github%E4%BB%93%E5%BA%93%E6%8E%A8%E9%80%81%E8%BF%9E%E6%8E%A5%E9%94%99%E8%AF%AF/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-09-24T15:48:53+00:00" />
+<meta property="article:modified_time" content="2022-09-24T15:48:53+00:00" />
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="javac&amp;java"/>
-<meta name="twitter:description" content="java命令行使用"/>
+<meta name="twitter:title" content="Github仓库推送连接错误"/>
+<meta name="twitter:description" content="git推送奇奇怪怪的小错误"/>
 
 
 <script type="application/ld+json">
@@ -124,8 +124,8 @@ code.has-jax {
     {
       "@type": "ListItem",
       "position":  3 ,
-      "name": "javac\u0026java",
-      "item": "https://iriseve.github.io/posts/tech/javacjava/"
+      "name": "Github仓库推送连接错误",
+      "item": "https://iriseve.github.io/posts/tech/github%E4%BB%93%E5%BA%93%E6%8E%A8%E9%80%81%E8%BF%9E%E6%8E%A5%E9%94%99%E8%AF%AF/"
     }
   ]
 }
@@ -134,24 +134,24 @@ code.has-jax {
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "javac\u0026java",
-  "name": "javac\u0026java",
-  "description": "java命令行使用",
+  "headline": "Github仓库推送连接错误",
+  "name": "Github仓库推送连接错误",
+  "description": "git推送奇奇怪怪的小错误",
   "keywords": [
-    "java", "命令行"
+    "git"
   ],
-  "articleBody": "问题描述 在idea中创建类，在运行成功同时javac命令生成class文件成功的前提下，java命令报错找不到或无法加载主类\n问题解决 使用javac命令生成的class文件应该和java类文件在同一目录下。 使用java命令-cp参数 java -cp \u003c目录1;目录2;...\u003e 全限定类名 这种方式是JDK1.5后官方建议的方式。\n当你在命令行下运行java命令时，如果没有指定-classpath参数，那么默认使用环境变量中设置的ClASSPATH。\n官方建议，你在运行每个程序时，为其显示设置所依赖的类文件所在的位置，而不是使用“全局”性质的环境变量中CLASSPATH。一旦你运行程序时指定了-classpath参数，环境变量中的CLASSPATH就不会在使用，而是使用你参数的classpath。\n这里注意全限定类名：包名+类名。\n如果是多个module，cd到该模块下执行对应操作即可。\n包是否为空，只要检查代码上是否含有package语句。\n参考 Java命令行运行错误: 找不到或无法加载主类\n",
-  "wordCount" : "441",
+  "articleBody": " 进行仓库push的时候，出现报错：Failed to connect to github.com port 443 after 2375 ms: Connection refused\n一开始以为是最近github又不太稳定需要挂梯子，所以直接推连接不上…\n解决方法 重启Pycharm 关闭代理 git config --global --unset http.proxy git config --global --unset https.proxy 添加全局代理： git config --global http.proxy git config --global https.proxy 还是报错~呜呜\n修改IP地址和域名间映射 通过GitHub: Where the world builds software · GitHub (ipaddress.com) 查询github.com的ip地址\n在C:\\Windows\\System32\\drivers\\etc路径下找到hosts文件\n添加\n140.82.112.3 github.com 参考 Failed to connect to github.com port 443: Connection refused问题解决\nhosts文件修改,文件类型修改\n",
+  "wordCount" : "256",
   "inLanguage": "zh",
-  "datePublished": "2023-01-23T20:25:40+08:00",
-  "dateModified": "2023-01-23T20:25:40+08:00",
+  "datePublished": "2022-09-24T15:48:53Z",
+  "dateModified": "2022-09-24T15:48:53Z",
   "author":[{
     "@type": "Person",
     "name": "yiling"
   }],
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://iriseve.github.io/posts/tech/javacjava/"
+    "@id": "https://iriseve.github.io/posts/tech/github%E4%BB%93%E5%BA%93%E6%8E%A8%E9%80%81%E8%BF%9E%E6%8E%A5%E9%94%99%E8%AF%AF/"
   },
   "publisher": {
     "@type": "Organization",
@@ -246,11 +246,8 @@ code.has-jax {
   <header class="post-header">
     <div class="breadcrumbs"><a href="https://iriseve.github.io/">🏠主页</a>&nbsp;»&nbsp;<a href="https://iriseve.github.io/posts/">📚文章</a>&nbsp;»&nbsp;<a href="https://iriseve.github.io/posts/tech/">👩‍💻技术</a></div>
     <h1 class="post-title">
-      javac&amp;java
+      Github仓库推送连接错误
     </h1>
-    <div class="post-description">
-      java命令行使用
-    </div>
     <div class="post-meta">
 
 
@@ -262,13 +259,13 @@ code.has-jax {
 
 
 
-创建:&nbsp;<span title='2023-01-23 20:25:40 +0800 CST'>2023-01-23</span>&nbsp;|&nbsp;更新:&nbsp;2023-01-23&nbsp;|&nbsp;字数:约&nbsp;441字&nbsp;|&nbsp;时长: 1分钟&nbsp;|&nbsp;
+创建:&nbsp;<span title='2022-09-24 15:48:53 +0000 UTC'>2022-09-24</span>&nbsp;|&nbsp;更新:&nbsp;2022-09-24&nbsp;|&nbsp;字数:约&nbsp;256字&nbsp;|&nbsp;时长: 1分钟&nbsp;|&nbsp;
 作者:&nbsp;yiling
 
     
     &nbsp;|&nbsp;标签: &nbsp;
     <ul class="post-tags-meta">
-        <a href="https://iriseve.github.io/tags/java/">java</a>
+        <a href="https://iriseve.github.io/tags/git/">git</a>
     </ul>
 
     
@@ -327,9 +324,7 @@ code.has-jax {
 
             <div class="inner"><ul>
                     <li>
-                        <a href="#%e9%97%ae%e9%a2%98%e6%8f%8f%e8%bf%b0" aria-label="问题描述">问题描述</a></li>
-                    <li>
-                        <a href="#%e9%97%ae%e9%a2%98%e8%a7%a3%e5%86%b3" aria-label="问题解决">问题解决</a></li>
+                        <a href="#%e8%a7%a3%e5%86%b3%e6%96%b9%e6%b3%95" aria-label="解决方法">解决方法</a></li>
                     <li>
                         <a href="#%e5%8f%82%e8%80%83" aria-label="参考">参考</a>
                     </li>
@@ -398,50 +393,57 @@ code.has-jax {
     }
 </script>
 
-  <div class="post-content"><h3 id="问题描述">问题描述<a hidden class="anchor" aria-hidden="true" href="#问题描述">#</a></h3>
-<p>在idea中创建类，在运行成功同时<code>javac</code>命令生成<code>class</code>文件成功的前提下，java命令报错<code>找不到或无法加载主类</code></p>
-<h3 id="问题解决">问题解决<a hidden class="anchor" aria-hidden="true" href="#问题解决">#</a></h3>
+  <div class="post-content"><blockquote>
+<p>进行仓库<code>push</code>的时候，出现报错：<code>Failed to connect to github.com port 443 after 2375 ms: Connection refused</code></p>
+<p>一开始以为是最近github又不太稳定需要挂梯子，所以直接推连接不上&hellip;</p>
+</blockquote>
+<h1 id="解决方法">解决方法<a hidden class="anchor" aria-hidden="true" href="#解决方法">#</a></h1>
 <ol>
-<li>使用javac命令生成的class文件应该和java类文件在同一目录下。</li>
+<li>重启<code>Pycharm</code></li>
+<li>关闭代理</li>
 </ol>
-<p><img loading="lazy" src="https://cdn.jsdelivr.net/gh/Iriseve/PictureCloud@master/data/202301240046070.png" alt=""  />
-</p>
-<p><img loading="lazy" src="https://cdn.jsdelivr.net/gh/Iriseve/PictureCloud@master/data/202301240046071.png" alt=""  />
-</p>
-<ol start="2">
-<li>使用java命令-cp参数</li>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>git config --global --unset http.proxy
+</span></span><span style="display:flex;"><span>git config --global --unset https.proxy
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>添加全局代理：
+</span></span><span style="display:flex;"><span>git config --global http.proxy
+</span></span><span style="display:flex;"><span>git config --global https.proxy
+</span></span></code></pre></div><p>还是报错~呜呜</p>
+<ol start="3">
+<li>修改IP地址和域名间映射</li>
 </ol>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>java -cp &lt;目录1;目录2;...&gt; 全限定类名
-</span></span></code></pre></div><p><img loading="lazy" src="https://cdn.jsdelivr.net/gh/Iriseve/PictureCloud@master/data/202301240046069.png" alt=""  />
-</p>
-<p><img loading="lazy" src="https://cdn.jsdelivr.net/gh/Iriseve/PictureCloud@master/data/202301240046067.png" alt=""  />
-</p>
-<p>这种方式是JDK1.5后官方建议的方式。</p>
-<p>当你在命令行下运行java命令时，如果没有指定-classpath参数，那么<strong>默认使用环境变量中设置的ClASSPATH</strong>。</p>
-<p>官方建议，你在运行每个程序时，为其显示设置所依赖的类文件所在的位置，而不是使用“全局”性质的环境变量中CLASSPATH。一旦你运行程序时指定了-classpath参数，环境变量中的CLASSPATH就不会在使用，而是使用你参数的classpath。</p>
-<p>这里注意全限定类名：包名+类名。</p>
-<p>如果是多个module，cd到该模块下执行对应操作即可。</p>
-<p>包是否为空，只要检查代码上是否含有package语句。</p>
-<h3 id="参考">参考<a hidden class="anchor" aria-hidden="true" href="#参考">#</a></h3>
-<p><a href="https://blog.csdn.net/gao_zhennan/article/details/112749742">Java命令行运行错误: 找不到或无法加载主类</a></p>
+<ul>
+<li>
+<p>通过<a href="https://ipaddress.com/website/github.com">GitHub: Where the world builds software · GitHub (ipaddress.com)</a> 查询<code>github.com</code>的ip地址</p>
+</li>
+<li>
+<p>在<code>C:\Windows\System32\drivers\etc</code>路径下找到hosts文件</p>
+</li>
+<li>
+<p>添加</p>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>140.82.112.3 github.com
+</span></span></code></pre></div><h1 id="参考">参考<a hidden class="anchor" aria-hidden="true" href="#参考">#</a></h1>
+<p><a href="https://blog.csdn.net/weixin_44442186/article/details/124979085">Failed to connect to github.com port 443: Connection refused问题解决</a></p>
+<p><a href="https://blog.csdn.net/m0_64690946/article/details/121869624">hosts文件修改,文件类型修改</a></p>
 
 
   </div>
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://iriseve.github.io/tags/java/">java</a></li>
+      <li><a href="https://iriseve.github.io/tags/git/">git</a></li>
     </ul>
 <nav class="paginav">
-  <a class="prev" href="https://iriseve.github.io/posts/tech/%E5%8F%AF%E5%8F%98%E5%8F%82%E6%95%B0/">
+  <a class="prev" href="https://iriseve.github.io/posts/tech/javacjava/">
     <span class="title">« 上一页</span>
     <br>
-    <span>可变参数</span>
+    <span>javac&amp;java</span>
   </a>
-  <a class="next" href="https://iriseve.github.io/posts/tech/github%E4%BB%93%E5%BA%93%E6%8E%A8%E9%80%81%E8%BF%9E%E6%8E%A5%E9%94%99%E8%AF%AF/">
+  <a class="next" href="https://iriseve.github.io/posts/tech/%E6%8B%A6%E6%88%AA%E5%99%A8%E4%B8%AD%E6%97%A0%E6%B3%95%E6%B3%A8%E5%85%A5mapperservice/">
     <span class="title">下一页 »</span>
     <br>
-    <span>Github仓库推送连接错误</span>
+    <span>拦截器中无法注入Mapper,Service</span>
   </a>
 </nav>
 

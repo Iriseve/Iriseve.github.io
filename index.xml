@@ -52,6 +52,24 @@
       <description>走进我 昵称：yiling 一个什么都不会又什么都想玩玩的大学生 努力成长中&amp;hellip; 关于博客 记录下摸爬滚打过程中的坎坷 方便日后不在同一个地</description>
     </item>
     
+    <item>
+      <title>Github仓库推送连接错误</title>
+      <link>https://iriseve.github.io/posts/tech/github%E4%BB%93%E5%BA%93%E6%8E%A8%E9%80%81%E8%BF%9E%E6%8E%A5%E9%94%99%E8%AF%AF/</link>
+      <pubDate>Sat, 24 Sep 2022 15:48:53 +0000</pubDate>
+      
+      <guid>https://iriseve.github.io/posts/tech/github%E4%BB%93%E5%BA%93%E6%8E%A8%E9%80%81%E8%BF%9E%E6%8E%A5%E9%94%99%E8%AF%AF/</guid>
+      <description>git推送奇奇怪怪的小错误</description>
+    </item>
+    
+    <item>
+      <title>拦截器中无法注入Mapper,Service</title>
+      <link>https://iriseve.github.io/posts/tech/%E6%8B%A6%E6%88%AA%E5%99%A8%E4%B8%AD%E6%97%A0%E6%B3%95%E6%B3%A8%E5%85%A5mapperservice/</link>
+      <pubDate>Sun, 28 Aug 2022 15:38:08 +0000</pubDate>
+      
+      <guid>https://iriseve.github.io/posts/tech/%E6%8B%A6%E6%88%AA%E5%99%A8%E4%B8%AD%E6%97%A0%E6%B3%95%E6%B3%A8%E5%85%A5mapperservice/</guid>
+      <description>第一次用springboot遇到的小问题</description>
+    </item>
+    
     
     
   </channel>
