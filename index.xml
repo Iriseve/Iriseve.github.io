@@ -6,7 +6,16 @@
     <description>Recent content on yiling的成长历程</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 28 Jan 2023 00:38:20 +0800</lastBuildDate><atom:link href="https://iriseve.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Apr 2023 14:07:37 +0800</lastBuildDate><atom:link href="https://iriseve.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Acwing 3777.砖块</title>
+      <link>https://iriseve.github.io/posts/algorithm/acwing3777.%E7%A0%96%E5%9D%97/</link>
+      <pubDate>Sat, 08 Apr 2023 14:07:37 +0800</pubDate>
+      
+      <guid>https://iriseve.github.io/posts/algorithm/acwing3777.%E7%A0%96%E5%9D%97/</guid>
+      <description>好久没水题解了，水一水</description>
+    </item>
+    
     <item>
       <title>Scanner包下的nextLine()和next()</title>
       <link>https://iriseve.github.io/posts/tech/scanner%E5%8C%85%E4%B8%8B%E7%9A%84nextline%E5%92%8Cnext/</link>
@@ -31,7 +40,7 @@
       <pubDate>Mon, 23 Jan 2023 23:12:56 +0800</pubDate>
       
       <guid>https://iriseve.github.io/posts/tech/%E5%8F%AF%E5%8F%98%E5%8F%82%E6%95%B0/</guid>
-      <description>可变参数</description>
+      <description>java的一个语法糖🍬</description>
     </item>
     
     <item>

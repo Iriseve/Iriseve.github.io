@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>算法 on yiling的成长历程</title>
-    <link>https://iriseve.github.io/categories/%E7%AE%97%E6%B3%95/</link>
-    <description>Recent content in 算法 on yiling的成长历程</description>
+    <title>递推 on yiling的成长历程</title>
+    <link>https://iriseve.github.io/tags/%E9%80%92%E6%8E%A8/</link>
+    <description>Recent content in 递推 on yiling的成长历程</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 08 Apr 2023 14:07:37 +0800</lastBuildDate><atom:link href="https://iriseve.github.io/categories/%E7%AE%97%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Apr 2023 14:07:37 +0800</lastBuildDate><atom:link href="https://iriseve.github.io/tags/%E9%80%92%E6%8E%A8/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Acwing 3777.砖块</title>
       <link>https://iriseve.github.io/posts/algorithm/acwing3777.%E7%A0%96%E5%9D%97/</link>

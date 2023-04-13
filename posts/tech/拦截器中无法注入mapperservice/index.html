@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>拦截器中无法注入Mapper,Service | yiling的成长历程</title>
-<meta name="keywords" content="java, SpringBoot">
+<meta name="keywords" content="java框架, SpringBoot">
 <meta name="description" content="第一次用springboot遇到的小问题">
 <meta name="author" content="
 作者:&nbsp;yiling">
@@ -138,7 +138,7 @@ code.has-jax {
   "name": "拦截器中无法注入Mapper,Service",
   "description": "第一次用springboot遇到的小问题",
   "keywords": [
-    "java", "SpringBoot"
+    "java框架", "SpringBoot"
   ],
   "articleBody": " 写登录认证拦截器的时候碰到一个小问题：在拦截器中如果没有用到mapper、service时，一切正常;\n但是一旦用到mapper、service，就报空指针异常\n一开始以为是没有查到数据（事实上没查到和查不了是两回事~~只是简单没查到的话也应该返回一个空对象）\n不过通过debug，发现是mapper为空，也就是根本没有注入！！先后检查了mapper、interceptor有没有分别加上@Mapper、@Component，发现都解决不了。\n猜测 是不是拦截器创建的时候，mapper还没来得及注入?\n结果 还真是这样….\n拦截器原来的配置 @Configuration public class InterceptorConfig implements WebMvcConfigurer { @Override public void addInterceptors(InterceptorRegistry registry) { registry.addInterceptor(new JWTInterceptor()) .addPathPatterns(\"/user/**\");//其他接口验证token直接拦截器拦截 } } 注意看！这里是在添加拦截器的时候new了一个拦截器，并没有将拦截器托管给IOC容器，所以就有了一个先后（我猜的）\n修改后的配置 @Configuration public class InterceptorConfig implements WebMvcConfigurer { @Bean public JWTInterceptor jwtInterceptor(){ return new JWTInterceptor(); } @Override public void addInterceptors(InterceptorRegistry registry) { registry.addInterceptor(jwtInterceptor()) .addPathPatterns(\"/user/**\") .addPathPatterns(\"/logout\"); } } 将拦截器注成bean交给Spring托管\n参考 拦截器中不能注入Java bean?\nSpringBoot自定义拦截器注入Service_\n",
   "wordCount" : "493",

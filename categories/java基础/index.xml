@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>java on yiling的成长历程</title>
-    <link>https://iriseve.github.io/tags/java/</link>
-    <description>Recent content in java on yiling的成长历程</description>
+    <title>java基础 on yiling的成长历程</title>
+    <link>https://iriseve.github.io/categories/java%E5%9F%BA%E7%A1%80/</link>
+    <description>Recent content in java基础 on yiling的成长历程</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 28 Jan 2023 00:38:20 +0800</lastBuildDate><atom:link href="https://iriseve.github.io/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 28 Jan 2023 00:38:20 +0800</lastBuildDate><atom:link href="https://iriseve.github.io/categories/java%E5%9F%BA%E7%A1%80/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Scanner包下的nextLine()和next()</title>
       <link>https://iriseve.github.io/posts/tech/scanner%E5%8C%85%E4%B8%8B%E7%9A%84nextline%E5%92%8Cnext/</link>
