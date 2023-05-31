@@ -6,7 +6,16 @@
     <description>Recent content in Categories on yiling的成长历程</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 08 Apr 2023 14:07:37 +0800</lastBuildDate><atom:link href="https://iriseve.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 31 May 2023 20:12:45 +0800</lastBuildDate><atom:link href="https://iriseve.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>mysql</title>
+      <link>https://iriseve.github.io/categories/mysql/</link>
+      <pubDate>Wed, 31 May 2023 20:12:45 +0800</pubDate>
+      
+      <guid>https://iriseve.github.io/categories/mysql/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>算法</title>
       <link>https://iriseve.github.io/categories/%E7%AE%97%E6%B3%95/</link>

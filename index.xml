@@ -6,7 +6,16 @@
     <description>Recent content on yiling的成长历程</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 08 Apr 2023 14:07:37 +0800</lastBuildDate><atom:link href="https://iriseve.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 31 May 2023 20:12:45 +0800</lastBuildDate><atom:link href="https://iriseve.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mysql服务重启</title>
+      <link>https://iriseve.github.io/posts/env_deploy/mysql%E6%9C%8D%E5%8A%A1%E9%87%8D%E5%90%AF/</link>
+      <pubDate>Wed, 31 May 2023 20:12:45 +0800</pubDate>
+      
+      <guid>https://iriseve.github.io/posts/env_deploy/mysql%E6%9C%8D%E5%8A%A1%E9%87%8D%E5%90%AF/</guid>
+      <description>Mysql Server被意外关闭后重启遇到的一些小问题</description>
+    </item>
+    
     <item>
       <title>Acwing 3777.砖块</title>
       <link>https://iriseve.github.io/posts/algorithm/acwing3777.%E7%A0%96%E5%9D%97/</link>

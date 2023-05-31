@@ -2,22 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://iriseve.github.io/posts/env_deploy/</loc>
+    <lastmod>2023-05-31T20:12:45+08:00</lastmod>
+  </url><url>
+    <loc>https://iriseve.github.io/posts/</loc>
+    <lastmod>2023-05-31T20:12:45+08:00</lastmod>
+  </url><url>
+    <loc>https://iriseve.github.io/categories/</loc>
+    <lastmod>2023-05-31T20:12:45+08:00</lastmod>
+  </url><url>
+    <loc>https://iriseve.github.io/tags/mysql/</loc>
+    <lastmod>2023-05-31T20:12:45+08:00</lastmod>
+  </url><url>
+    <loc>https://iriseve.github.io/categories/mysql/</loc>
+    <lastmod>2023-05-31T20:12:45+08:00</lastmod>
+  </url><url>
+    <loc>https://iriseve.github.io/posts/env_deploy/mysql%E6%9C%8D%E5%8A%A1%E9%87%8D%E5%90%AF/</loc>
+    <lastmod>2023-05-31T20:12:45+08:00</lastmod>
+  </url><url>
+    <loc>https://iriseve.github.io/tags/</loc>
+    <lastmod>2023-05-31T20:12:45+08:00</lastmod>
+  </url><url>
+    <loc>https://iriseve.github.io/</loc>
+    <lastmod>2023-05-31T20:12:45+08:00</lastmod>
+  </url><url>
     <loc>https://iriseve.github.io/posts/algorithm/</loc>
     <lastmod>2023-04-08T14:07:37+08:00</lastmod>
   </url><url>
-    <loc>https://iriseve.github.io/posts/</loc>
-    <lastmod>2023-04-08T14:07:37+08:00</lastmod>
-  </url><url>
     <loc>https://iriseve.github.io/posts/algorithm/acwing3777.%E7%A0%96%E5%9D%97/</loc>
-    <lastmod>2023-04-08T14:07:37+08:00</lastmod>
-  </url><url>
-    <loc>https://iriseve.github.io/categories/</loc>
-    <lastmod>2023-04-08T14:07:37+08:00</lastmod>
-  </url><url>
-    <loc>https://iriseve.github.io/tags/</loc>
-    <lastmod>2023-04-08T14:07:37+08:00</lastmod>
-  </url><url>
-    <loc>https://iriseve.github.io/</loc>
     <lastmod>2023-04-08T14:07:37+08:00</lastmod>
   </url><url>
     <loc>https://iriseve.github.io/tags/%E9%80%92%E6%8E%A8/</loc>
@@ -69,8 +81,6 @@
     <lastmod>2022-08-28T15:38:08+00:00</lastmod>
   </url><url>
     <loc>https://iriseve.github.io/archives/</loc>
-  </url><url>
-    <loc>https://iriseve.github.io/posts/env_deploy/</loc>
   </url><url>
     <loc>https://iriseve.github.io/search/</loc>
   </url><url>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>💻环境搭建 on yiling的成长历程</title>
-    <link>https://iriseve.github.io/posts/env_deploy/</link>
-    <description>Recent content in 💻环境搭建 on yiling的成长历程</description>
+    <title>mysql on yiling的成长历程</title>
+    <link>https://iriseve.github.io/categories/mysql/</link>
+    <description>Recent content in mysql on yiling的成长历程</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 31 May 2023 20:12:45 +0800</lastBuildDate><atom:link href="https://iriseve.github.io/posts/env_deploy/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 31 May 2023 20:12:45 +0800</lastBuildDate><atom:link href="https://iriseve.github.io/categories/mysql/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mysql服务重启</title>
       <link>https://iriseve.github.io/posts/env_deploy/mysql%E6%9C%8D%E5%8A%A1%E9%87%8D%E5%90%AF/</link>
